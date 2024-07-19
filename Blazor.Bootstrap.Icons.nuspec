@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>LGK, Brügmann Software GmbH</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>logo.png</icon>
+    <projectUrl>https://github.com/bruegmann/blazor-bootstrap-icons</projectUrl>
+    <description>Use the Bootstrap Icons library as Blazor components.</description>
+    <copyright>$copyright$</copyright>
+    <tags>blazor icons svg bootstrap aspnet aspnetcore components</tags>
+  </metadata>
+  <files>
+    <file src="logo.png" target="logo.png" />
+  </files>
+</package>

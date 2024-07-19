@@ -12,7 +12,7 @@ const iconsDirs = [
     path.join(rootDir, "node_modules", "bootstrap-icons", "icons")
 ]
 
-const dir = path.join(rootDir, "Blazor.Bootstrap.Icons", "Components")
+const dir = path.join(rootDir, "Components")
 
 if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir)
@@ -25,10 +25,6 @@ let n = 0
 for (const iconsDir of iconsDirs) {
     fs.readdirSync(iconsDir).forEach((file) => {
         const svg = fs.readFileSync(`${iconsDir}/${file}`, "utf8")
-
-        if (file !== "house.svg" && file !== "house-fill.svg") {
-            return
-        }
 
         console.log(`${iconsDir}/${file}`)
 
