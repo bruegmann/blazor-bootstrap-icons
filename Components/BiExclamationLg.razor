@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="@Class" width="@Size" height="@Size"
+     fill="@Color" @attributes="AdditionalAttributes">
+    <path d="M7.005 3.1a1 1 0 1 1 1.99 0l-.388 6.35a.61.61 0 0 1-1.214 0zM7 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/>
+</svg>
+
+@code {
+    [Parameter]
+    public string Class { get; set; } = "bi bi-exclamation-lg";
+
+    [Parameter]
+    public string Color { get; set; } = "currentColor";
+
+    [Parameter]
+    public string Size { get; set; } = "1em";
+
+    [Parameter(CaptureUnmatchedValues = true)]
+    public IDictionary<string, object>? AdditionalAttributes { get; set; }
+}
