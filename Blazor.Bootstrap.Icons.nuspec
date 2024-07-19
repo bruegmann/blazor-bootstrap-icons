@@ -12,8 +12,10 @@
     <description>Use the Bootstrap Icons library as Blazor components.</description>
     <copyright>$copyright$</copyright>
     <tags>blazor icons svg bootstrap aspnet aspnetcore components</tags>
+    <readme>README.md</readme>
   </metadata>
   <files>
     <file src="logo.png" target="logo.png" />
+    <file src="README.md" target="README.md" />
   </files>
 </package>

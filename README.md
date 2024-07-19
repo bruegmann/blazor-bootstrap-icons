@@ -8,6 +8,8 @@ Use the [Bootstrap Icons library](https://icons.bootstrap.com) as Blazor compone
 dotnet add package Blazor.Bootstrap.Icons
 ```
 
+[![Nuget](https://img.shields.io/nuget/v/Blazor.Bootstrap.Icons)](https://www.nuget.org/packages/Blazor.Bootstrap.Icons/)
+
 ## Usage
 
 ```razor
@@ -36,6 +38,6 @@ Other ways to use Bootstrap Icons: [https://icons.getbootstrap.com/#usage](https
 
 ## License
 
--   Blazor Bootstrap Icons are open-sourced ([MIT](https://github.com/bruegmann/blazor-bootstrap-icons/LICENSE))
+-   Blazor Bootstrap Icons are open-sourced ([MIT](https://github.com/bruegmann/blazor-bootstrap-icons/blob/main/LICENSE))
 -   react-bootstrap-icons are open-sourced ([MIT](https://github.com/ismamz/react-bootstrap-icons/blob/master/LICENSE.md))
 -   Bootstrap Icons are open-sourced ([MIT](https://github.com/twbs/icons/blob/main/LICENSE))
