@@ -27,7 +27,7 @@ The icon names are the `PascalCase` version of the original name. To avoid confl
 | Attribute | Default value                                  |
 | --------- | ---------------------------------------------- |
 | `Class`   | `"bi bi-"` + icon name (e.g. `bi-arrow-right`) |
-| `Color`   | `"currentColor"`\*                             |
+| `Color`   | `"currentColor"`\                              |
 | `Size`    | `"1em"`                                        |
 
 You can add any other attribute like `title`, it will be attached to the SVG element.
